@@ -1,0 +1,19 @@
+{
+  "input_dim": 4,
+  "d_model": 64,
+  "nhead": 4,
+  "num_encoder_layers": 3,
+  "dim_feedforward": 128,
+  "dropout": 0.1,
+  "lookback": 100,
+  "horizon": 30,
+  "feature_cols": [
+    "avg_speed",
+    "vehicle_count",
+    "total_flow",
+    "flow_imbalance"
+  ],
+  "target_col": "avg_speed",
+  "best_val_loss": 0.02710399208157215,
+  "epochs_trained": 21
+}
